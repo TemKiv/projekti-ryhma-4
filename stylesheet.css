@@ -64,7 +64,6 @@
     nav ul li{
     list-style-type: none;
     display: inline;
-    padding: 20px;
     }
     li a:hover {
     background-color: rgb(97, 97, 97);
