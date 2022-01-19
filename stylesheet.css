@@ -1,25 +1,122 @@
-@media only screen and (max-width: 768px) {
-    body {
-    font-family: Verdana;
-    background-color: darkgrey;
-    }
-    h1 {
-    color: darkorange;
-    }
-	h2{
-	color: teal;
-	}
-    p {
-    color: darkred;
-    }
-    footer {
-    font-family: Arial;
-    }
-    nav ul li{
-    list-style-type: none;
-    float: none;
-    }
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
 }
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia, serif;
+  margin: 1%;
+}
+
+/* link styles */
+a:link, a:visited { color: #03dc94; }
+a:focus, a:hover, a:active { color: #d9f1db; }
+
+a {
+  text-decoration: none;
+  /*padding-bottom: .2em;*/
+}
+
+/* header styles */
+header {
+  color: white;
+  background-color: rgb(184, 212, 198);
+  background-size: cover; 
+  text-align: center;
+  height: 15em;
+  grid-area: banner;
+  margin:0;
+
+}
+header p {
+  font-style: italic;
+  font-size: 1.2em;
+}
+header h1 {
+  margin-top: 2%;
+  padding-top: 2em;
+  color: darkorange;
+}
+
+/* nav styles */
+nav, footer {
+  font-family: verdana, sans-serif;
+  background-color: #b5d8dd;
+}
+
+nav ul li a {
+  
+  padding: 1em;
+  margin-top: 0;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: black;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+nav ul {
+  margin: 5em 0;
+  padding: 1em;
+  list-style-type: none;
+}
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  display: inline-block;
+  
+}
+
+/* main styles */
+main {
+  font-family: Georgia, serif;
+  background-color: rgb(145, 44, 106);
+  color: white;
+  padding: 1em;
+  grid-area: main;
+}
+
+h2 {color: teal;}
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  padding-left: 1em;
+  margin-top: 2.5em;
+}
+
+p {
+  color: darkred;
+  }
+
+main img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+/* aside styles */
+aside {
+  background-color: blue;
+  padding: 1em;
+  padding-left: 45px;
+  grid-area: aside;
+}
+/* footer */
+footer {
+  color: #EADDC4;
+  text-align: center;
+  font-size: .8em;
+  padding: 1em;
+  grid-area: footer;
+}
+
+h2 {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+}
+
 
 @media only screen and (min-width: 768px) {
     body {
@@ -43,6 +140,37 @@
     display: inline;
     }
 }
+
+
+@media screen and (min-width: 940px) {
+
+    #container {
+      display: grid;
+      grid-template-rows: auto auto 5em;
+      grid-template-columns: minmax(25em, 1fr) 16em;
+      grid-template-areas: "banner banner" "main aside" "footer footer";
+      gap: 1em;
+    }
+    nav ul {
+      margin-top: 12%;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+    }
+    nav ul li a {
+      display: block;
+      padding: 2em;
+      margin-top: 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+  
+    header {
+        height: 22em;
+    }
+}  
 
 @media only screen and (min-width: 1200px) {
     body {
