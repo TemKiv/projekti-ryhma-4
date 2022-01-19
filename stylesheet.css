@@ -15,9 +15,33 @@
 }
 
 @media only screen and (min-width: 768px) {
-
+    body {
+        font-family: Verdana;
+        background-color: darkgrey;
+        }
+        h1 {
+        color: darkorange;
+        }
+        p {
+        color: darkred;
+        }
+        footer {
+        font-family: Arial;
+        }
 }
 
 @media only screen and (min-width: 1200px) {
-
+    body {
+        font-family: Verdana;
+        background-color: darkgrey;
+        }
+        h1 {
+        color: darkorange;
+        }
+        p {
+        color: darkred;
+        }
+        footer {
+        font-family: Arial;
+        }
 }
