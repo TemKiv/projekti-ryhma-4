@@ -53,6 +53,6 @@
     nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     }
 }
