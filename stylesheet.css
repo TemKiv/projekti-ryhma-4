@@ -194,6 +194,10 @@ footer {
     li a:hover {
     background-color: rgb(97, 97, 97);
     }
+    nav ul li a.active {
+      background-color: rgb(97, 97, 97);
+    }
+
 }
 
 header{
