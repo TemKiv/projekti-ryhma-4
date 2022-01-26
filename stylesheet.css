@@ -197,3 +197,9 @@ h2 {
     background-color: rgb(97, 97, 97);
     }
 }
+
+header{
+	  background-image: url('pictures/brownies2.png');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  }
