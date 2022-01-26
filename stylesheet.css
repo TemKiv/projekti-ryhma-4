@@ -12,12 +12,9 @@ body {
 }
 
 /* link styles */
-a:link, a:visited { color: #03dc94; }
-a:focus, a:hover, a:active { color: #d9f1db; }
 
 a {
   text-decoration: none;
-  /*padding-bottom: .2em;*/
 }
 
 /* header styles */
@@ -102,7 +99,8 @@ main img {
 
 /* aside styles */
 aside {
-  background-color: rgb(127, 218, 230);
+  /*background-color: rgb(127, 218, 230);*/
+  background-color: #b5d8dd;
   padding: 1em;
   padding-left: 45px;
   grid-area: aside;
@@ -149,7 +147,7 @@ footer {
       gap: 1em;
     }
     nav ul {
-      margin-top: 12%;
+      margin-top: 15%;
       padding: 0;
       display: flex;
       justify-content: center;
@@ -162,6 +160,7 @@ footer {
     }
     header h1 {
       margin: 0;
+      /*margin-top: 3%;*/
     }
   
     header {
