@@ -193,5 +193,16 @@ footer {
     }
     li a:hover {
     background-color: rgb(97, 97, 97);
+<<<<<<< HEAD
+    }
+}
+
+header{
+	  background-image: url('pictures/brownies2.png');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  }
+=======
     } */
 }
+>>>>>>> 2612be3defa7f0eb8f5f9ddfa652820ab20cefdd
