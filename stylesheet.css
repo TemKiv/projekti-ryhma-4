@@ -173,7 +173,7 @@ h2 {
 }  
 
 @media only screen and (min-width: 1200px) {
-    /* body {
+    body {
     font-family: Verdana;
     background-color: darkgrey;
     }
@@ -195,7 +195,6 @@ h2 {
     }
     li a:hover {
     background-color: rgb(97, 97, 97);
-<<<<<<< HEAD
     }
 }
 
@@ -204,7 +203,4 @@ header{
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  }
-=======
-    } */
-}
->>>>>>> 2612be3defa7f0eb8f5f9ddfa652820ab20cefdd
+
