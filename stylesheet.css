@@ -97,14 +97,25 @@ main img {
   margin: 0 1em 1em 0;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 /* aside styles */
 aside {
-  /*background-color: rgb(127, 218, 230);*/
   background-color: #b5d8dd;
   padding: 1em;
-  padding-left: 45px;
+  /*padding-left: 45px;*/
   grid-area: aside;
+  overflow: hidden;
 }
+
+aside img {
+  width: 30%;
+  float:left;
+}
+
 /* footer */
 footer {
   color: #EADDC4;
@@ -165,6 +176,11 @@ footer {
   
     header {
         height: 22em;
+    }
+
+    aside img {
+      width: 100%;
+      display: inline-block;
     }
 }  
 
