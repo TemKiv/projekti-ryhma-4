@@ -80,12 +80,16 @@ main {
   grid-area: main;
 }
 
-h2 {color: teal;}
-h3 {
+h1, h2, h3 {
+  color: teal;
   text-transform: uppercase;
   letter-spacing: .2em;
   padding-left: 1em;
   margin-top: 2.5em;
+}
+
+h2 {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
 }
 
 p {
@@ -113,24 +117,18 @@ footer {
   grid-area: footer;
 }
 
-h2 {
-  font-family: 'Stint Ultra Expanded', Georgia, serif;
-}
 
 
 @media only screen and (min-width: 768px) {
     body {
-    font-family: Verdana;
     background-color: darkgrey;
     }
-    h1 {
-    color: darkorange;
-    }
-	h2{
-	color: teal;
-	}
-    p {
-    color: darkred;
+    h1, h2, h3 {
+      color: teal;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      padding-left: 1em;
+      margin-top: 2.5em;
     }
     footer {
     font-family: Arial;
