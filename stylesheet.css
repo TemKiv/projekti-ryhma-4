@@ -73,7 +73,7 @@ nav ul li {
 
 /* main styles */
 main {
-  font-family: Georgia, serif;
+  font-family: sans-serif;
   background-color: #b5d8dd;
   color: white;
   padding: 1em;
@@ -173,7 +173,7 @@ h2 {
 }  
 
 @media only screen and (min-width: 1200px) {
-    body {
+    /* body {
     font-family: Verdana;
     background-color: darkgrey;
     }
@@ -195,6 +195,7 @@ h2 {
     }
     li a:hover {
     background-color: rgb(97, 97, 97);
+<<<<<<< HEAD
     }
 }
 
@@ -203,3 +204,7 @@ header{
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  }
+=======
+    } */
+}
+>>>>>>> 2612be3defa7f0eb8f5f9ddfa652820ab20cefdd
