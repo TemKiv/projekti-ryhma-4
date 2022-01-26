@@ -189,12 +189,12 @@ footer {
     nav ul li{
     list-style-type: none;
     display: inline;
+    padding-right: .2%;
     }
-    li a:hover {
+
+    nav ul li a:hover, a.active{
     background-color: rgb(97, 97, 97);
-    }
-    nav ul li a.active {
-      background-color: rgb(97, 97, 97);
+    border-radius: 15px;
     }
 
 }
