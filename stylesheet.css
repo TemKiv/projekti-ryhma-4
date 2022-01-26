@@ -74,7 +74,7 @@ nav ul li {
 /* main styles */
 main {
   font-family: Georgia, serif;
-  background-color: rgb(145, 44, 106);
+  background-color: #b5d8dd;
   color: white;
   padding: 1em;
   grid-area: main;
@@ -99,7 +99,7 @@ main img {
 
 /* aside styles */
 aside {
-  background-color: blue;
+  background-color: rgb(127, 218, 230);
   padding: 1em;
   padding-left: 45px;
   grid-area: aside;
