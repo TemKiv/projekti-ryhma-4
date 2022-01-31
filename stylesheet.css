@@ -12,12 +12,9 @@ body {
 }
 
 /* link styles */
-a:link, a:visited { color: #03dc94; }
-a:focus, a:hover, a:active { color: #d9f1db; }
 
 a {
   text-decoration: none;
-  /*padding-bottom: .2em;*/
 }
 
 /* header styles */
@@ -47,7 +44,7 @@ nav, footer {
 }
 
 nav ul li a {
-  
+
   padding: 1em;
   margin-top: 0;
 }
@@ -79,20 +76,30 @@ main {
   grid-area: main;
 }
 
-h1, h2, h3 {
-  color: teal;
+h2, h3 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  padding-left: 1em;
+  margin-top: 2.5em;
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+}
+h4 {
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: .2em;
   padding-left: 1em;
   margin-top: 2.5em;
 }
-
-h2 {
-  font-family: 'Stint Ultra Expanded', Georgia, serif;
+ul li {
+  color:rgb(0, 0, 0);
+  list-style-type: circle;
+  line-height: 180%;
+  padding-left: 0.5em;
 }
-
 p {
-  color: darkred;
+  color: rgb(0, 0, 0);
+  padding-left: 3em;
   }
 
 main img {
@@ -100,13 +107,25 @@ main img {
   margin: 0 1em 1em 0;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 /* aside styles */
 aside {
-  background-color: rgb(127, 218, 230);
+  background-color: #b5d8dd;
   padding: 1em;
-  padding-left: 45px;
+  /*padding-left: 45px;*/
   grid-area: aside;
+  overflow: hidden;
 }
+
+aside img {
+  width: 30%;
+  float:left;
+}
+
 /* footer */
 footer {
   color: #EADDC4;
@@ -123,7 +142,7 @@ footer {
     background-color: darkgrey;
     }
     h1, h2, h3 {
-      color: teal;
+      color: rgb(0, 0, 0);
       text-transform: uppercase;
       letter-spacing: .2em;
       padding-left: 1em;
@@ -149,7 +168,7 @@ footer {
       gap: 1em;
     }
     nav ul {
-      margin-top: 12%;
+      margin-top: 15%;
       padding: 0;
       display: flex;
       justify-content: center;
@@ -162,10 +181,16 @@ footer {
     }
     header h1 {
       margin: 0;
+      /*margin-top: 3%;*/
     }
   
     header {
         height: 22em;
+    }
+
+    aside img {
+      width: 100%;
+      display: inline-block;
     }
 }  
 
@@ -174,14 +199,8 @@ footer {
     font-family: Verdana;
     background-color: darkgrey;
     }
-    h1 {
-    color: darkorange;
-    }
-	h2{
-	color: teal;
-	}
-    p {
-    color: darkred;
+    h1, h2, h3, p {
+    color: rgb(0, 0, 0);
     }
     footer {
     font-family: Arial;
@@ -189,10 +208,14 @@ footer {
     nav ul li{
     list-style-type: none;
     display: inline;
+    padding-right: .2%;
     }
-    li a:hover {
-    background-color: rgb(97, 97, 97);
+
+    nav ul li a:hover, a.active{
+    background-color: rgb(160, 160, 160);
+    border-radius: 15px;
     }
+
 }
 
 header{

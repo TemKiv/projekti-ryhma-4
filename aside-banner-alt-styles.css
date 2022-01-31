@@ -1,0 +1,19 @@
+/* täällä vain yhteystiedot-sivun aside-banneri */
+
+
+@media screen and (min-width: 940px) {
+
+  #container {
+
+    grid-template-columns: minmax(25em, 1fr) 35%;
+
+  }
+
+  aside {
+    background-color: #e2f4f7;
+  }
+
+  iframe{
+    width: 100%;
+}
+}
