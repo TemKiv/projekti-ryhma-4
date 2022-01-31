@@ -44,7 +44,7 @@ nav, footer {
 }
 
 nav ul li a {
-  
+
   padding: 1em;
   margin-top: 0;
 }
@@ -76,20 +76,30 @@ main {
   grid-area: main;
 }
 
-h1, h2, h3 {
-  color: teal;
+h2, h3 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  padding-left: 1em;
+  margin-top: 2.5em;
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+}
+h4 {
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: .2em;
   padding-left: 1em;
   margin-top: 2.5em;
 }
-
-h2 {
-  font-family: 'Stint Ultra Expanded', Georgia, serif;
+ul li {
+  color:rgb(0, 0, 0);
+  list-style-type: circle;
+  line-height: 180%;
+  padding-left: 0.5em;
 }
-
 p {
-  color: darkred;
+  color: rgb(0, 0, 0);
+  padding-left: 3em;
   }
 
 main img {
@@ -132,7 +142,7 @@ footer {
     background-color: darkgrey;
     }
     h1, h2, h3 {
-      color: teal;
+      color: rgb(0, 0, 0);
       text-transform: uppercase;
       letter-spacing: .2em;
       padding-left: 1em;
@@ -189,14 +199,8 @@ footer {
     font-family: Verdana;
     background-color: darkgrey;
     }
-    h1 {
-    color: darkorange;
-    }
-	h2{
-	color: teal;
-	}
-    p {
-    color: darkred;
+    h1, h2, h3, p {
+    color: rgb(0, 0, 0);
     }
     footer {
     font-family: Arial;
@@ -208,7 +212,7 @@ footer {
     }
 
     nav ul li a:hover, a.active{
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(160, 160, 160);
     border-radius: 15px;
     }
 
