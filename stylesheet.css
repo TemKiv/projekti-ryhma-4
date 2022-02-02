@@ -154,7 +154,31 @@ footer {
   grid-area: footer;
 }
 
-
+@media only screen and (max-width: 767px) {
+  body {
+    font-family: Verdana, sans-serif;
+    background-color: darkgrey;
+  }
+  h1, h2, h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-left: 1em;
+    margin-top: 2.5em;
+  }
+  footer {
+  font-family: Arial;
+  }
+  nav ul li{
+  list-style-type: none;
+  display: inline;
+  }
+  
+  nav ul li a:hover, a.active{
+    background-color: rgb(160, 160, 160);
+    border-radius: 15px;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     body {
@@ -175,6 +199,11 @@ footer {
     list-style-type: none;
     display: inline;
     }
+    
+    nav ul li a:hover, a.active{
+      background-color: rgb(160, 160, 160);
+      border-radius: 15px;
+      }
 }
 
 
