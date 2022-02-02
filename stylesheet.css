@@ -42,7 +42,7 @@ header h1 {
 /* nav styles */
 nav, footer {
   font-family: Verdana, sans-serif;
-  background-color: #b5d8dd;
+  background-color: #fdfdfd;
 }
 
 nav ul li a {
@@ -72,7 +72,7 @@ nav ul li {
 /* main styles */
 main {
   font-family: Verdana, sans-serif;
-  background-color: #b5d8dd;
+  background-color: #ffffff;
   color: white;
   padding: 1em;
   grid-area: main;
