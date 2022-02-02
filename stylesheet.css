@@ -185,7 +185,7 @@ footer {
       gap: 1em;
     }
     nav ul {
-      margin-top: 15%;
+      
       padding: 0;
       display: flex;
       justify-content: center;
@@ -208,6 +208,10 @@ footer {
     aside img {
       width: 100%;
       display: inline-block;
+    }
+
+    nav {
+      margin-top: 10em;
     }
 }  
 
