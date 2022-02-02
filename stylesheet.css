@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: sans-serif;
   margin: 1%;
 }
 
@@ -26,6 +26,8 @@ header {
   height: 15em;
   grid-area: banner;
   margin:0;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
 
 }
 header p {
@@ -39,7 +41,7 @@ header h1 {
 
 /* nav styles */
 nav, footer {
-  font-family: verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   background-color: #b5d8dd;
 }
 
@@ -69,7 +71,7 @@ nav ul li {
 
 /* main styles */
 main {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   background-color: #b5d8dd;
   color: white;
   padding: 1em;
@@ -156,7 +158,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
     body {
-    background-color: darkgrey;
+      font-family: Verdana, sans-serif;
+      background-color: darkgrey;
     }
     h1, h2, h3 {
       color: rgb(0, 0, 0);
@@ -177,6 +180,10 @@ footer {
 
 @media screen and (min-width: 940px) {
 
+  body {
+    font-family: Verdana, sans-serif;
+    background-color: darkgrey;
+  }
     #container {
       display: grid;
       grid-template-rows: auto auto 5em;
@@ -217,7 +224,7 @@ footer {
 
 @media only screen and (min-width: 1200px) {
     body {
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     background-color: darkgrey;
     }
     h1, h2, h3, p {
