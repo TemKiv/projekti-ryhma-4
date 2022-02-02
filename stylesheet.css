@@ -216,7 +216,8 @@ footer {
     #container {
       display: grid;
       grid-template-rows: auto auto 5em;
-      grid-template-columns: minmax(25em, 1fr) 16em;
+      /*grid-template-columns: minmax(25em, 1fr) 16em;*/
+      grid-template-columns: minmax(25em, 1fr) 35%;
       grid-template-areas: "banner banner" "main aside" "footer footer";
       gap: 1em;
     }
@@ -253,6 +254,9 @@ footer {
       background-color: rgb(207, 207, 207);
       border-radius: 15px;
       }
+      iframe{
+        width: 100%;
+    }
 }  
 
 @media only screen and (min-width: 1200px) {
