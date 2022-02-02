@@ -126,6 +126,7 @@ aside {
 aside img {
   width: 30%;
   float:left;
+  padding: 1em;
 }
 
 /* map styles */
