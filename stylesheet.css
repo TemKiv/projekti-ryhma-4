@@ -175,8 +175,8 @@ footer {
   display: inline;
   }
   
-  nav ul li a:hover, a.active{
-    background-color: rgb(226, 226, 226);
+  nav ul li a:hover, a.active, a:focus{
+    background-color: rgb(207, 207, 207);
     border-radius: 15px;
     }
 }
@@ -201,8 +201,8 @@ footer {
     display: inline;
     }
     
-    nav ul li a:hover, a.active{
-      background-color: rgb(160, 160, 160);
+    nav ul li a:hover, a.active, a:focus{
+      background-color: rgb(207, 207, 207);
       border-radius: 15px;
       }
 }
@@ -250,8 +250,8 @@ footer {
     nav {
       margin-top: 10em;
     }
-    nav ul li a:hover, a.active{
-      background-color: rgb(193, 193, 193);
+    nav ul li a:hover, a.active, a:focus{
+      background-color: rgb(207, 207, 207);
       border-radius: 15px;
       }
 }  
@@ -273,8 +273,8 @@ footer {
     padding-right: .2%;
     }
 
-    nav ul li a:hover, a.active{
-    background-color: rgb(160, 160, 160);
+    nav ul li a:hover, a.active, a:focus{
+      background-color: rgb(207, 207, 207);
     border-radius: 15px;
     }
 
