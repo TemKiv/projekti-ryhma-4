@@ -1,4 +1,4 @@
-/* täällä vain yhteystiedot-sivun aside-banneri */
+/* täällä vain yhteystiedot- ja en-sivujen aside-banneri */
 
 
 @media screen and (min-width: 940px) {
@@ -9,9 +9,6 @@
 
   }
 
-  aside {
-    background-color: #e2f4f7;
-  }
 
   iframe{
     width: 100%;
