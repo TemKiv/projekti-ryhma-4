@@ -116,7 +116,7 @@ main img {
 
 /* aside styles */
 aside {
-  background-color: #b5d8dd;
+  background-color: #ffffff;
   padding: 1em;
   /*padding-left: 45px;*/
   grid-area: aside;
@@ -221,7 +221,7 @@ footer {
       margin-top: 10em;
     }
     nav ul li a:hover, a.active{
-      background-color: rgb(160, 160, 160);
+      background-color: rgb(193, 193, 193);
       border-radius: 15px;
       }
 }  
