@@ -176,7 +176,7 @@ footer {
   }
   
   nav ul li a:hover, a.active{
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(226, 226, 226);
     border-radius: 15px;
     }
 }
