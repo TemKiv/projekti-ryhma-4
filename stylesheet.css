@@ -220,6 +220,10 @@ footer {
     nav {
       margin-top: 10em;
     }
+    nav ul li a:hover, a.active{
+      background-color: rgb(160, 160, 160);
+      border-radius: 15px;
+      }
 }  
 
 @media only screen and (min-width: 1200px) {
