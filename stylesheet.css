@@ -73,7 +73,7 @@ nav ul li {
 main {
   font-family: Verdana, sans-serif;
   background-color: #ffffff;
-  color: white;
+  color: black;
   padding: 1em;
   grid-area: main;
 }
