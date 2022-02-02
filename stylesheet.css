@@ -125,7 +125,7 @@ aside {
 aside img {
   width: 30%;
   float:left;
-  padding: 1em;
+ /* padding: 1em;*/
 }
 
 /* map styles */
@@ -245,6 +245,7 @@ footer {
     aside img {
       width: 100%;
       display: inline-block;
+      padding: 1em;
     }
 
     nav {
