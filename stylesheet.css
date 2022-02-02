@@ -183,7 +183,7 @@ footer {
   body {
     font-family: Verdana, sans-serif;
     background-color: darkgrey;
-
+  }
     #container {
       display: grid;
       grid-template-rows: auto auto 5em;
