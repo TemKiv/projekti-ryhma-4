@@ -178,6 +178,29 @@ footer {
     background-color: rgb(207, 207, 207);
     border-radius: 15px;
     }
+    /*#hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+   
+    #hamnav{
+      background-color: #fff;
+    }
+    #hamnav label { 
+      display: inline-block; 
+      color: white;
+      background: rgb(207, 207, 207);
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; 
+  }*/
+  #hamnav label, #hamburger { display: none; }
 }
 
 @media only screen and (min-width: 768px) {
@@ -204,6 +227,7 @@ footer {
       background-color: rgb(207, 207, 207);
       border-radius: 15px;
       }
+      #hamnav label, #hamburger { display: none; }
 }
 
 
@@ -257,6 +281,7 @@ footer {
       iframe{
         width: 100%;
     }
+    #hamnav label, #hamburger { display: none; }
 }  
 
 @media only screen and (min-width: 1200px) {
@@ -280,7 +305,7 @@ footer {
       background-color: rgb(207, 207, 207);
     border-radius: 15px;
     }
-
+    #hamnav label, #hamburger { display: none; }
 }
 
 header{
