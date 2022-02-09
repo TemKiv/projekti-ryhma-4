@@ -7,8 +7,9 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   margin: 1%;
+  background-color: darkgrey;
 }
 
 /* link styles */
@@ -41,8 +42,11 @@ header h1 {
 
 /* nav styles */
 nav, footer {
-  font-family: Verdana, sans-serif;
   background-color: #fdfdfd;
+}
+
+nav {
+  font-family: Verdana, sans-serif;
 }
 
 nav ul li a {
@@ -55,6 +59,8 @@ nav ul li a:link, nav ul li a:visited {
 }
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
   color: #fff;
+  background-color: rgb(207, 207, 207);
+  border-radius: 15px;
 }
 nav ul {
   margin: 5em 0;
@@ -65,8 +71,7 @@ nav ul li {
   font-size: .8em;
   text-transform: uppercase;
   letter-spacing: .2em;
-  display: inline-block;
-  
+  display: inline; 
 }
 
 /* main styles */
@@ -79,20 +84,17 @@ main {
 }
 
 h2, h3 {
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  padding-left: 1em;
-  margin-top: 2.5em;
   font-family: 'Stint Ultra Expanded', Georgia, serif;
 }
-h4 {
+
+h1, h2, h3, h4 {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: .2em;
   padding-left: 1em;
   margin-top: 2.5em;
 }
+
 ul li {
   color:rgb(0, 0, 0);
   list-style-type: circle;
@@ -147,37 +149,17 @@ aside img {
 
 /* footer */
 footer {
-  color: #EADDC4;
   text-align: center;
   font-size: .8em;
   padding: 1em;
   grid-area: footer;
+  font-family: Arial;
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    font-family: Verdana, sans-serif;
-    background-color: darkgrey;
-  }
-  h1, h2, h3 {
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    padding-left: 1em;
-    margin-top: 2.5em;
-  }
-  footer {
-  font-family: Arial;
-  }
-  nav ul li{
-  list-style-type: none;
-  display: inline;
-  }
-  
-  nav ul li a:hover, a.active, a:focus{
-    background-color: rgb(207, 207, 207);
-    border-radius: 15px;
-    }
+
+    /* hamnav styles */
+    
     #hamitems a {
       box-sizing: content-box;
       display: flex;
